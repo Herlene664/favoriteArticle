@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Everything you need to know about BTS GROUP, my favorite K-pop boy group.">
+    <title>Bangtan Sonyeondan - My Favorite Boy Group</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            background-color: silver;
+            color: #333;
+            margin: 20px;
+        }
+
+        header {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+        }
+
+        header p {
+            font-size: 1.2em;
+            margin-top: 10px;
+        }
+
+        .view-article {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 10px 20px;
+            background-color: #ffcc00; 
+            color: black;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+
+        .view-article:hover {
+            background-color: darkgoldenrod; 
+        }
+
+        .article {
+            display: none; 
+            margin-top: 20px;
+        }
+
+        section {
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            font-size: 2em;
+            color: #444;
+            border-bottom: 2px solid #333;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+        }
+
+        .member-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .member {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 10px;
+            margin: 10px;
+            text-align: center;
+            width: 150px; 
+        }
+
+        .member img {
+            width: 100%; 
+            border-radius: 10px 10px 0 0; 
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            border-radius: 10px;
+            margin-top: 30px;
+        }
+
+        media (max-width: 768px) {
+            body {
+                margin: 10px;
+            }
+
+            header h1 {
+                font-size: 2em;
+            }
+
+            h2 {
+                font-size: 1.7em;
+            }
+
+            .member {
+                width: 100px; 
+            }
+        }
+    </style>
+    <script>
+        function showArticle() {
+            document.getElementById('article').style.display = 'block'; 
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <h1>Bangtan Sonyeondan - The Rising Stars</h1>
+        <p>Everything you need to know about my favorite boy group</p>
+        <a href="javascript:void(0);" class="view-article" onclick="showArticle()">View Article</a>
+    </header>
+
+    <div id="article" class="article"> 
+        <section class="intro">
+            <h2>Introduction</h2>
+            <p>Galaxy Boys is a K-pop boy band from BigHit Entertainment. The name "BTS" stands for Bulletproof Boy Scouts in Korean, but they have recently changed their English name to Beyond the Scene. They have seven members (3 rappers and 4 vocalists) and debuted on June 12th, 2013. Their fandom name is Army. Since then they've accomplished many things, including attending the Billboard awards in America and winning the Top Social Artist Awards.</p>
+        </section>
+
+        <section class="members">
+            <h2>Meet the Members</h2>
+            <div class="member-container">
+                <div class=" member">
+                    <img src="images (6).jpeg" alt="Kim Namjoon">
+                    <strong>Kim Namjoon</strong> - Leader & Main Rapper
+                </div>
+                <div class="member">
+                    <img src="images (7).jpeg" alt="Kim Seokjin">
+                    <strong>Kim Seokjin</strong> - Vocalist and Visual
+                </div>
+                <div class="member">
+                    <img src="images (8).jpeg" alt="Min Yoongi">
+                    <strong>Min Yoongi</strong> - Lead Rapper
+                </div>
+                <div class="member">
+                    <img src="images (9).jpeg" alt="Jung Hoseok">
+                    <strong>Jung Hoseok</strong> - Lead Rapper and Main Dancer
+                </div>
+                <div class="member">
+                    <img src="images (10).jpeg" alt="Park Jimin">
+                    <strong>Park Jimin</strong> - Lead Vocalist and Main Dancer
+                </div>
+                <div class="member">
+                    <img src="images (13).jpeg" alt="Kim Teahyung">
+                    <strong>Kim Teahyung</strong> - Vocalist
+                </div>
+                <div class="member">
+                    <img src="images (14).jpeg" alt="Jeon Jungkook">
+                    <strong>Jeon Jungkook</strong> - Lead Dancer, Sub Rapper and Main Vocalist
+                </div>
+            </div>
+        </section>
+        <section class="discography">
+            <h2>Discography</h2>
+            <p>'BTS BOY GROUP' music spans a variety of genres. Here are some of their hit songs:</p>
+            <ol>
+                <li>"Dynamite" - August 21, 2020</li>
+                <li>"Butter" - May 22, 2021</li>
+                <li>"Dreamers" - November 20, 2022</li>
+                <li>"Permission to Dance" - July 09, 2021</li>
+            </ol>
+        </section>
+        <section class="fandom">
+            <h2>Fandom</h2>
+            <p>The fandom name for BTS is "ARMY". They are known for their passionate support and dedication to the group, often organizing events and fan projects to show their love.</p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2014 BTS Fan Page. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
